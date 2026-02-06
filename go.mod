@@ -1,3 +1,3 @@
-module github.com/yzchan/umeng-go/v2
+module github.com/muheheheh/umeng-go/v2
 
 go 1.16

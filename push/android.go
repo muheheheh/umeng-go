@@ -1,7 +1,7 @@
 package push
 
 import (
-	"github.com/yzchan/umeng-go/v2/push/notification"
+	"github.com/muheheheh/umeng-go/v2/push/notification"
 )
 
 type AndroidRequest struct {

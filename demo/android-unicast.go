@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/yzchan/umeng-go/v2/push"
+
+	"github.com/muheheheh/umeng-go/v2/push"
 )
 
 func main() {
