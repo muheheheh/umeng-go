@@ -44,6 +44,7 @@ type Body struct {
 	Sound       string `json:"sound,omitempty"`
 	BuilderId   int    `json:"builder_id,omitempty"`
 	Badge       int    `json:"badge,omitempty"`
+	AddBadge    int    `json:"add_badge,omitempty"`
 	PlayVibrate string `json:"play_vibrate,omitempty"`
 	PlayLights  string `json:"play_lights,omitempty"`
 	PlaySound   string `json:"play_sound,omitempty"`
@@ -100,6 +101,11 @@ func (b *Body) SetBuilderId(id int) *Body {
 
 func (b *Body) SetBadge(badge int) *Body {
 	b.Badge = badge
+	return b
+}
+
+func (b *Body) SetAddBadge(addBadge int) *Body {
+	b.AddBadge = addBadge
 	return b
 }
 
